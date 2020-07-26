@@ -58,12 +58,12 @@ function getData() {
   });
 }
 
-getData();
-// cron.schedule('*/5 * * * *', () => {
-//   console.log('running a task every 30 seconds');
-//   getData();
+// getData();
+cron.schedule('*/5 * * * *', () => {
+  console.log('running a task every 30 seconds');
+  getData();
 
-// });
+});
 
 
 
