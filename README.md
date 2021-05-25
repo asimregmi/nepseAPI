@@ -1,2 +1,2 @@
 ## nepseAPI
-Nepal Stock Exchange Ltd. Data for Live Prices with Node.js. Fetch data from URL https://nepsedataapi.herokuapp.com/.
+Nepal Stock Exchange Ltd. Data scrapped from http://www.nepalstock.com/ with Node.js. To fetch data, visit URL https://nepsedataapi.herokuapp.com/.
